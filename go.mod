@@ -1,11 +1,14 @@
 module github.com/khulnasoft-lab/go-pr-commenter
 
-go 1.18
+go 1.21
+
+toolchain go1.22.0
 
 require (
 	github.com/argonsecurity/go-environments v0.1.68
 	github.com/google/go-github/v44 v44.1.0
 	github.com/google/go-github/v57 v57.0.0
+	github.com/google/go-github/v60 v60.0.0
 	github.com/samber/lo v1.38.1
 	github.com/urfave/cli/v2 v2.25.7
 	golang.org/x/oauth2 v0.15.0
